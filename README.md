@@ -6,8 +6,8 @@ Dockerfile for running [Leiningen](https://github.com/technomancy/leiningen).
 
 1. Build the image:
 
-    `docker build -t martinp/leiningen .`
+    `docker build -t alexguev/leiningen .`
 
 2. Run repl:
 
-    `docker run -i -t martinp/leiningen lein repl`
+    `docker run -i -t alexguev/leiningen lein repl`
